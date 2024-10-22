@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Cadastro</title>
+    <link rel="shortcut icon" href="imagens/favicon2.ico">
+    <link rel="stylesheet" href="styleform.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <nav>
+
+<!-- SESSÃO ATRELADA A RESPONSIVIDADE -->
+
+<!--Minha ideia é que dispositivos menores utilizem o menu hamburguer pra fazer a navegação no site
+Esse trecho adiciona o menu hamburguer . O que determinará se será ele ou a barra de navegação comum que estará visivel, serão as condições do display 
+estabelecidas no media query do arquivo styles.css -->
+
+<div class="hamburguer">
+  <input type="checkbox" id="menu" class="container__botao">
+  <label for="menu">
+    <span class="cabecalho__menu-hamburguer container__imagem"></span>
+  </label>
+  <ul class="lista-menu">
+    <li class="lista_menu__item"><a href="">Memória Ram</a></li>
+    <li class="lista_menu__item"><a href="">Placa de Video</a></li>
+    <li class="lista_menu__item"><a href="">Gabinetes</a></li>
+    <li class="lista_menu__item"><a href=""></a>Nossas Política</li>
+    <li class="lista_menu__item"><a href=""></a>Cadastre-se</li>
+  </ul>
+
+        <!--##############################################################################################-->
+</div>
+
+      <div class="logo">
+        <a href="index.html">PeriTech</a>
+      </div>
+      <div class="menu">
+        <a href="teclado.html">Teclados</a>
+        <a href="mouse.html">Mouses</a>
+        <a href="mihe.html">Headsets/Microfones</a>
+        <a href="#contato">Contatos</a>
+        <a href="politicas.html">Nossas Política</a>
+        <a href="form.html">Cadastre-se</a>
+        
+      </div>
+        <i class='bx bx-shopping-bag' id="cart-icon"></i>
+        <div class="cart">
+          <h2 class="cart-title">Seu Carrinho</h2>
+          
+          <div class="cart-content">
+    
+          </div>
+    
+          <div class="total">
+              <div class="total-title">Total</div>
+              <div class="total-price">R$0</div>
+          </div>
+    
+          <button type="button" class="btn-buy">Comprar Agora</button>
+    
+          <i class='bx bx-x' id="close-cart"></i>
+    
+        </div>
+        <div class="search">
+          <input type="text" placeholder="Pesquisar">
+          <button type="submit">Pesquisar</button>
+        </div>
+      </nav>
+
+    <div class="container">
+        <div class="header">
+            <h2>Cadastre-se</h2>
+        </div>
+        <form class="form" id="form">
+
+            <div class="form-control">
+
+                <label for="username" >Nome</label>
+                <input type="text" id="username" placeholder="Nome">
+                <i class="img-success" ><img src="img/success-icon.svg" alt="ícone de sucesso"></i>
+                <i class="img-error" ><img src="img/error-icon.svg" alt="ícone de erro"></i>
+
+                <small>Error Message</small>
+
+            </div>
+
+            <div class="form-control">
+
+                <label>Email</label>
+                <input type="email" id="email" placeholder="Email">
+                <i class="img-success" ><img src="img/success-icon.svg" alt="ícone de sucesso"></i>
+                <i class="img-error" ><img src="img/error-icon.svg" alt="ícone de erro"></i>
+
+                <small>Error Message</small>
+
+            </div>
+
+            <div class="form-control">
+
+                <label>Senha</label>
+                <input type="password" id="password" placeholder="Senha">
+                <i class="img-success" ><img src="img/success-icon.svg" alt="ícone de sucesso"></i>
+                <i class="img-error" ><img src="img/error-icon.svg" alt="ícone de erro"></i>
+
+                <small>Error Message</small>
+
+            </div>
+
+            <div class="form-control">
+
+                <label>Confirme sua senha</label>
+                <input type="password" id="password-two" placeholder="Confirme sua senha">
+                <i class="img-success" ><img src="img/success-icon.svg" alt="ícone de sucesso"></i>
+                <i class="img-error" ><img src="img/error-icon.svg" alt="ícone de erro"></i>
+
+                <small>Error Message</small>
+
+            </div>
+
+            <button type="submit" >ENVIAR</button>
+        </form>
+    </div>
+
+    <a href="https://wa.me/+5575981290867" class="whatsapp-btn" class="wppimg" target="_blank">
+        <img src="imagens/wppicon.png" alt="Imagem da rede social Whatsapp">
+        <i class="fa fa-whatsapp"></i>
+      </a>    
+
+</body>
+<script src="form.js"></script>
+<script src="script.js"></script>
+</html>

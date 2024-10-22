@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="banner.css">
+  <link rel="shortcut icon" href="imagens/favicon2.ico">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <title>Headset e Microfone - PeriTech</title>
+</head>
+
+<body>
+
+  <nav>
+
+<!-- SESSÃO ATRELADA A RESPONSIVIDADE -->
+
+<!--Minha ideia é que dispositivos menores utilizem o menu hamburguer pra fazer a navegação no site
+Esse trecho adiciona o menu hamburguer . O que determinará se será ele ou a barra de navegação comum que estará visivel, serão as condições do display 
+estabelecidas no media query do arquivo styles.css -->
+
+<div class="hamburguer">
+  <input type="checkbox" id="menu" class="container__botao">
+  <label for="menu">
+    <span class="cabecalho__menu-hamburguer container__imagem"></span>
+  </label>
+  <ul class="lista-menu">
+    <li class="lista_menu__item"><a href="">Memória Ram</a></li>
+    <li class="lista_menu__item"><a href="">Placa de Video</a></li>
+    <li class="lista_menu__item"><a href="">Gabinetes</a></li>
+    <li class="lista_menu__item"><a href=""></a>Nossas Política</li>
+    <li class="lista_menu__item"><a href=""></a>Cadastre-se</li>
+  </ul>
+
+        <!--##############################################################################################-->
+</div>
+
+    <div class="logo">
+      <a href="index.html">PeriTech</a>
+    </div>
+    <div class="menu">
+        <a href="teclado.html">Teclados</a>
+        <a href="mouse.html">Mouses</a>
+      <a href="mihe.html">Headsets/Microfones</a>
+      <a href="#contato">Contatos</a>
+      <a href="politicas.html">Nossas Política</a>
+      <a href="form.html">Cadastre-se</a>
+      
+    </div>
+    <i class='bx bx-shopping-bag' id="cart-icon"></i>
+    <div class="cart">
+      <h2 class="cart-title">Seu Carrinho</h2>
+
+      <div class="cart-content">
+
+      </div>
+
+      <div class="total">
+        <div class="total-title">Total</div>
+        <div class="total-price">R$0</div>
+      </div>
+
+      <i class='bx bx-x' id="close-cart"></i>
+
+      <h2 class="cart-title">Formas de pagamento</h2>
+
+      <select>
+        
+        <option>Pagamentos:</option>
+        <option value="pagamento">Crédito</option>
+        <option value="pagamento">Débito</option>
+        <option value="pagamento">Boleto</option>
+        <option value="pagamento">Pix</option>
+
+      </select>
+
+      <button type="button" class="btn-buy">Comprar Agora</button>
+
+    </div>
+    <div class="search">
+      <input type="text" placeholder="Pesquisar">
+      <button type="submit">Pesquisar</button>
+    </div>
+  </nav>
+
+  <section class="banner">
+    <h1>Headsets e Microfones</h1>
+  </section>
+
+  <section class="produtos">
+    <div class="produto">
+      <img src="imagens/headset1.jpg" alt="Camiseta" class="product-img">
+      <h3 class="product-title">Headset Gamer <br> Drivers 50mm, RGB<br> Mancer Aura</h3>
+      <span class="price">R$ 140,00</span><br>
+      <button class="add-cart">Adicionar ao Carrinho</button>
+    </div>
+    <div class="produto">
+      <img src="imagens/headset2.png" alt="Camiseta" class="product-img">
+      <h3 class="product-title">Headset Gamer <br>Microfone articulado, RGB <br> Scorpion Infokit Vermelho</h3>
+      <span class="price">R$ 250,00</span><br>
+      <button class="add-cart">Adicionar ao Carrinho</button>
+    </div>
+    <div class="produto">
+      <img src="imagens/headset3.png" alt="Camiseta" class="product-img">
+      <h3 class="product-title">Headset Gamer <br> 3.5mm, RGB <br> Redragon Hylas</h3>
+      <span class="price">R$ 150,00 </span><br>
+      <button class="add-cart">Adicionar ao Carrinho</button>
+    </div>
+    <div class="produto">
+      <img src="imagens/micro1.png" alt="Camiseta" class="product-img">
+      <h3 class="product-title">Microfone Gamer <br> Ampligame, Com Braço Articulado <br> Fifine A6T</h3>
+      <span class="price">R$ 299,00</span><br>
+      <button class="add-cart">Adicionar ao Carrinho</button>
+    </div>
+    <div class="produto">
+      <img src="imagens/micro2.png" alt="Camiseta" class="product-img">
+      <h3 class="product-title">Microfone Gamer <br> Interface USB RGB <br> Pickup Rhythm</h3>
+      <span class="price">R$ 130,00</span><br>
+      <button class="add-cart">Adicionar ao Carrinho</button>
+    </div> 
+    <div class="produto">
+      <img src="imagens/micro3.png" alt="Camiseta" class="product-img">
+        <h3 class="product-title">Microfone Gamer <br> Antivibração, LED RGB <br> HyperX QuadCast</h3>
+        <span class="price">R$ 860,00</span><br>
+        <button class="add-cart">Adicionar ao Carrinho</button>
+    </div>
+  </section>
+
+  <a href="https://wa.me/+5575981290867" class="whatsapp-btn" class="wppimg" target="_blank">
+    <img src="imagens/wppicon.png" alt="Imagem da rede social Whatsapp">
+    <i class="fa fa-whatsapp"></i>
+  </a>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h4>Contatos</h4>
+          <ul>
+              
+            <li>E-mail: contato@peritech.com.br</li>
+            <li>Clique no botão do Whatsapp e fale conosco!</li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h4>Redes Sociais</h4>
+          <ul class="social-media" id="contato">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h4>Direitos Reservados</h4>
+          <p>&copy; 2024 PeriTech. Todos os direitos reservados.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+<script src="camisa.js"></script>
+
+</html>

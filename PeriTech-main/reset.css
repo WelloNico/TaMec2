@@ -1,0 +1,51 @@
+/* reset.css */
+/* Remove margens, espaçamentos e paddings padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Remove estilos de listas */
+ul, ol {
+    list-style: none;
+}
+
+/* Remove decorações de links */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Garantir fontes consistentes */
+body {
+    line-height: 1.5;
+    font-family: Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Remove bordas de elementos clicáveis */
+button, input, textarea {
+    border: none;
+    background: none;
+    outline: none;
+}
+
+/* Tornar botões e inputs mais consistentes em todos os navegadores */
+button {
+    background: transparent;
+    cursor: pointer;
+}
+
+/* Definir tamanho de imagem */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Remover barras de rolagem desnecessárias */
+html {
+    scroll-behavior: smooth;
+}

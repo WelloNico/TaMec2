@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="banner.css">
+  <link rel="shortcut icon" href="imagens/favicon.ico">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <title>Todos os Produtos - TaMec</title>
+</head>
+
+<body>
+
+  <nav>
+
+<!-- SESSÃO ATRELADA A RESPONSIVIDADE -->
+
+<!--Minha ideia é que dispositivos menores utilizem o menu hamburguer pra fazer a navegação no site
+Esse trecho adiciona o menu hamburguer . O que determinará se será ele ou a barra de navegação comum que estará visivel, serão as condições do display 
+estabelecidas no media query do arquivo styles.css -->
+
+<div class="hamburguer">
+  <input type="checkbox" id="menu" class="container__botao">
+  <label for="menu">
+    <span class="cabecalho__menu-hamburguer container__imagem"></span>
+  </label>
+  <ul class="lista-menu">
+    <li class="lista_menu__item"><a href="">Memória Ram</a></li>
+    <li class="lista_menu__item"><a href="">Placa de Video</a></li>
+    <li class="lista_menu__item"><a href="">Gabinetes</a></li>
+    <li class="lista_menu__item"><a href=""></a>Nossas Política</li>
+    <li class="lista_menu__item"><a href=""></a>Cadastre-se</li>
+  </ul>
+
+        <!--##############################################################################################-->
+</div>
+
+    <div class="logo">
+      <a href="index.html">PeriTech</a>
+    </div>
+    <div class="menu">
+      <a href="memoriaram.html">Memória Ram</a>
+      <a href="placa.html">Placa de Vídeo</a>
+      <a href="gabinete.html">Gabinetes</a>
+      <a href="memorias.html">Memórias</a>
+      <a href="#contato">Contatos</a>
+      <a href="politicas.html">Nossas Política</a>
+      <a href="form.html">Cadastre-se</a>
+      
+    </div>
+    <i class='bx bx-shopping-bag' id="cart-icon"></i>
+    <div class="cart">
+      <h2 class="cart-title">Seu Carrinho</h2>
+      
+      <div class="cart-content">
+
+      </div>
+
+      <div class="total">
+          <div class="total-title">Total</div>
+          <div class="total-price">R$0</div>
+      </div>
+
+      <i class='bx bx-x' id="close-cart"></i>
+
+      <h2 class="cart-title">Formas de pagamento</h2>
+      
+      <select >
+
+        <option>Pagamentos:</option>
+        <option value="pagamento">Crédito</option>
+        <option value="pagamento">Débito</option>
+        <option value="pagamento">Boleto</option>
+        <option value="pagamento">Pix</option>
+
+      </select>
+
+      <button type="button" class="btn-buy">Comprar Agora</button>
+
+    </div>
+    <div class="search">
+      <input type="text" placeholder="Pesquisar">
+      <button type="submit">Pesquisar</button>
+    </div>
+  </nav>
+
+  <section class="banner">
+    <h1> Todos os Produtos</h1>
+  </section>
+
+  <section class="produtos">
+    <div class="produto">
+      <img src="imagens/Ram1.jpeg" alt="Camiseta" class="product-img">
+      <h3 class="product-title">Memória Ram XPG <br> 16 GB, DDR4, RGB <br> 3200MHz, CL16 Preta</h3>
+      <span class="price">R$ 260,00</span><br>
+      <button class="add-cart">Adicionar ao Carrinho</button>
+    </div>
+    <div class="produto">
+      <img src="imagens/Ram2.jpeg" alt="Camiseta" class="product-img">
+      <h3 class="product-title"> Memória Ram Gamer Husky <br> Gaming Avalanche, 8GB <br> DDR4 3200MHz, Preta</h3>
+      <span class="price">R$ 140,00</span><br>
+      <button class="add-cart">Adicionar ao Carrinho</button>
+    </div>
+    <div class="produto">
+      <img src="imagens/Ram3.jpeg" alt="Camiseta" class="product-img">
+      <h3 class="product-title">Memória Ram XPG <br> Gammix D35, 16GB <br> DDR4, 3200MHz, Branca</h3>
+      <span class="price">R$ 250,00 </span><br>
+      <button class="add-cart">Adicionar ao Carrinho</button>
+    </div>
+    <div class="produto">
+      <img src="imagens/Ram4.jpeg" alt="Camiseta" class="product-img">
+      <h3 class="product-title">Memória Ram Kingston<br>Fury Beast, 16GB, RGB <br>DDR4, 3200MHz, Preta</h3>
+      <span class="price">R$ 280,00</span><br>
+      <button class="add-cart">Adicionar ao Carrinho</button>
+    </div>
+    <div class="produto">
+      <img src="imagens/Ram5.jpeg" alt="Camiseta" class="product-img">
+      <h3 class="product-title">Memória Ram para notebook<br>Rise Mode Value Series, 8GB<br>DDR3L, 1600MHz</h3>
+      <span class="price">R$ 80,00</span><br>
+      <button class="add-cart">Adicionar ao Carrinho</button>
+    </div>
+    <div class="produto">
+      <img src="imagens/Ram6.jpeg" alt="Camiseta" class="product-img">
+        <h3 class="product-title">Memória Ram Rise Mode<br> 8GB, 1600MHz <br>DDR3, Basica</h3>
+        <span class="price">R$ 189,99</span><br>
+        <button class="add-cart">Adicionar ao Carrinho</button>
+    </div>
+
+    <div class="produto">
+      <img src="imagens/placa1.jpg" alt="Bermudas" class="product-img">
+      <h3 class="product-title">Placa de Vídeo RTX 4060 Ventus<br>2x Black OC MSI NVIDIA GeForce  <br> 8GB, GDDR6, DLSS</h3>
+      <span class="price">R$ 1.850,00</span><br>
+      <button class="add-cart">Adicionar ao Carrinho</button>
+    </div>
+    <div class="produto">
+      <img src="imagens/Placa2.png" alt="Bermudas" class="product-img">
+      <h3 class="product-title">Placa de Vídeo RTX4060 <br>RX 7600 AMD Radeon <br>8GB, GDDR6, FSR, Ray Tracing</h3>
+      <span class="price">R$ 1.680,00</span><br>
+      <button class="add-cart">Adicionar ao Carrinho</button>
+    </div>
+    <div class="produto">
+      <img src="imagens/placa3.jpg" alt="Bermudas" class="product-img">
+      <h3 class="">Placa de Vídeo RTX4060 1-Click OC 2X <br> TecLab Lite GALAX NVIDIA GeForce <br> 8GB GDDR6, G-SYNC, DLSS, Ray Tracing</h3>
+      <span class="price">R$ 1.890,00</span><br>
+      <button class="add-cart">Adicionar ao Carrinho</button>
+    </div>
+    <div class="produto">
+      <img src="imagens/placa4.jpg" alt="Bermudas" class="product-img">
+      <h3 class="product-title">Placa de Vídeo RTX3060<br> 1-CLICK OC Galaxy Nvidia<br> 12GB GDDR6 192BITS</h3>
+      <span class="price">R$ 1.670,00</span><br>
+      <button class="add-cart">Adicionar ao Carrinho</button>
+    </div>
+    <div class="produto">
+      <img src="imagens/placa5.jpg" alt="Bermudas" class="product-img">
+      <h3 class="product-title">Placa de Vídeo RTX 4060 8G<br>V2 Gaming ATS OC ASUS NVIDIA GeForce<br> 8GB GDDR6, DLSS, Ray Tracing, G-Sync</h3>
+      <span class="price">R$ 2.199,00</span><br>
+      <button class="add-cart">Adicionar ao Carrinho</button>
+    </div>
+    <div class="produto">
+      <img src="imagens/placa6.jpg" alt="Bermudas" class="product-img">
+      <h3 class="product-title">Placa de Vídeo Pcyes <br> RX 550 Projeto Edge <br> 4GB GDDR5 128 Bits Dual-Fan </h3>
+      <span class="price">R$ 480,00</span><br>
+      <button class="add-cart">Adicionar ao Carrinho</button>
+      </div>
+
+
+      <div class="produto">
+        <img src="imagens/Gabinete1.jpg" alt="Camiseta" class="product-img">
+        <h3 class="product-title">Gabinete Gamer, DT3 Hyper, <br> tipo aquário em vidro temperado,<br> M-ATX/Mini-ITX</h3>
+        <span class="price">R$ 450,00</span><br>
+        <button class="add-cart">Adicionar ao Carrinho</button>
+      </div>
+      <div class="produto">
+        <img src="imagens/gab2.jpg" alt="Camiseta" class="product-img">
+        <h3 class="product-title">Gabinete Gamer, Rise Mode Galaxy, Branco,<br>Glass Standard, Lateral e Frontal em Vidro,<br> Mid Tower, ARGB, ATX, 10x Cooler Fan</h3>
+        <span class="price">R$ 659,00</span><br>
+        <button class="add-cart">Adicionar ao Carrinho</button>
+      </div>
+      <div class="produto">
+        <img src="imagens/gab3.png" alt="Camiseta" class="product-img">
+        <h3 class="product-title">Gabinete Gamer Montech <br> X3 Glass, Mid Tower, Black, <br> ATX, Com 6 Fans, Vidro Temperado</h3>
+        <span class="price">R$ 460,00 </span><br>
+        <button class="add-cart">Adicionar ao Carrinho</button>
+      </div>
+      <div class="produto">
+        <img src="imagens/gab4.jpg" alt="Camiseta" class="product-img">
+        <h3 class="product-title">Gabinete Gamer, Acegeek <br> Surge-M, Lateral de Vidro <br> Mid Tower, Branco, AG-SURGE-M-WH</h3>
+        <span class="price">R$ 325,00</span><br>
+        <button class="add-cart">Adicionar ao Carrinho</button>
+      </div>
+      <div class="produto">
+        <img src="imagens/gab5.jpg" alt="Camiseta" class="product-img">
+        <h3 class="product-title">Gabinete Gamer, Thermaltake Divider <br> 70 TG ARGB, Snow, Mid Tower, <br> Vidro Temperado, M-ATX, Com 2 Fans</h3>
+        <span class="price">R$ 548,00</span><br>
+        <button class="add-cart">Adicionar ao Carrinho</button>
+      </div> 
+      <div class="produto">
+        <img src="imagens/gab6.jpg" alt="Camiseta" class="product-img">
+          <h3 class="product-title">Gabinete Gamer NZXT<br> H6 Flow RGB, Mid Tower, <br> Vidro Temperado, Black, ATX, 3 Fans</h3>
+          <span class="price">R$ 860,00</span><br>
+          <button class="add-cart">Adicionar ao Carrinho</button>
+      </div>
+
+
+      <div class="produto">
+        <img src="imagens/hd1.jpg" alt="Camiseta" class="product-img">
+        <h3 class="product-title">HD WD PURPLE SURVEILLANCE, <br> 8TB, 3.5, 5640 RPM, <br> SATA II 6GB/S, CACHE 256MB</h3>
+        <span class="price">R$ 1.380,00</span><br>
+        <button class="add-cart">Adicionar ao Carrinho</button>
+      </div>
+      <div class="produto">
+        <img src="imagens/ssd1.jpg" alt="Camiseta" class="product-img">
+        <h3 class="product-title"> SSD APACER AS2280Q4X, <br> 4TB, M.2 2280, PCIE NVME, <br> LEITURA 5000MB/S, GRAVACAO 4400MB/S</h3>
+        <span class="price">R$ 2.350,00</span><br>
+        <button class="add-cart">Adicionar ao Carrinho</button>
+      </div>
+      <div class="produto">
+        <img src="imagens/hd2.jpg" alt="Camiseta" class="product-img">
+        <h3 class="product-title">HD SEAGATE BARRACUDA, <br> 2TB 3.5" 7200RPM SATA III 6GB/S</h3>
+        <span class="price">R$ 430,00 </span><br>
+        <button class="add-cart">Adicionar ao Carrinho</button>
+      </div>
+      <div class="produto">
+        <img src="imagens/ssd2.jpg" alt="Camiseta" class="product-img">
+        <h3 class="product-title">SSD 1TB SanDisk Plus NVMe,<br>M.2, PCle, Gen3,<br>Leitura 3.200 e Gravação acima de 3.200</h3>
+        <span class="price">R$ 490,00</span><br>
+        <button class="add-cart">Adicionar ao Carrinho</button>
+      </div>
+      <div class="produto">
+        <img src="imagens/hd3.jpg" alt="Camiseta" class="product-img">
+        <h3 class="product-title">HD WD Blue 1TB, 3.5', SATA</h3>
+        <span class="price">R$ 240,00</span><br>
+        <button class="add-cart">Adicionar ao Carrinho</button>
+      </div>
+      <div class="produto">
+        <img src="imagens/ssd3.jpg" alt="Camiseta" class="product-img">
+          <h3 class="product-title">SSD SATA Kingston<br> A400, 480GB, 2.5" <br>Leitura: 500MB/s e Gravação: 450MB/s</h3>
+          <span class="price">R$ 310,00</span><br>
+          <button class="add-cart">Adicionar ao Carrinho</button>
+      </div>
+  </section>
+
+
+  <a href="https://wa.me/+5575981290867" class="whatsapp-btn" class="wppimg" target="_blank">
+    <img src="imagens/wppicon.png" alt="Imagem da rede social Whatsapp">
+    <i class="fa fa-whatsapp"></i>
+  </a>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h4>Contatos</h4>
+          <ul>
+            <li>Telefone: (11) 3435-0000</li>
+            <li>E-mail: contato@tamec.com.br</li>
+            <li>Clique no botão do Whatsapp e fale conosco!</li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h4>Redes Sociais</h4>
+          <ul class="social-media" id="contato">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h4>Direitos Reservados</h4>
+          <p>&copy; 2024 TaMec. Todos os direitos reservados.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+<script src="short.js"></script>
+</html>

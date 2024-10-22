@@ -1,0 +1,21 @@
+
+.banner {
+    background-color: black;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .banner h1{
+    font-size: 3rem;
+    font-weight: 800;
+    color: white;
+  }
+
